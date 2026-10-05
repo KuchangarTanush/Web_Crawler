@@ -1,4 +1,37 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
 .vscode/
+.idea/
+
+# Environment/secrets
+.env
+
+# Scrapy
+.scrapy/
+
+# Crawl/output data
+crawl_output/
+*.jsonl
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Redis/local data
+dump.rdb
+
+# Test/cache
+.pytest_cache/
+.mypy_cache/
